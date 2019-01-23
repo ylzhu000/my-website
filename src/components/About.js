@@ -20,14 +20,17 @@ export default class About extends Component {
 	          					<a href="https://www.github.com/ylzhu000" alt="Github" title="Yanlin Github Page">
 	          						<i className="fa fa-github" style={iconSize}></i>
 	          					</a>
-	          					<a href={require('../../public/YanlinZhuResume_12_21_2018.pdf')} download="YanlinZhuResume" alt="Resume" title="Yanlin Resume">
+	          					<a href={require('../../public/YanlinZhuFinalResume1_15_2019.pdf')} download="YanlinZhuResume" alt="Resume" title="Yanlin Resume">
 	          						<i className="fa fa-file" style={iconSize}></i>
 	          					</a>
 	          				</div>
 						</div>
 						<div className="card-stacked">
-							<div className="card-content">
-								<p>A computer engineering graduate who possess excellent technical, quantitative, and analytical skills who is seeking <b>FULL STACK DEVELOPER</b> full time position.</p>
+							<div className="card-content" id="about-card-container">
+								<p>I am a Full Stack Engineer who possess excellent technical, quantitative, and analytical skills.
+								   My goal is simply to be the best Engineer that I can be and believe learning by doing. Currently, 
+								   I am opened to new opportunities and looking forward to join a talented team to grow and learn, at the same time, I would contribute 
+								   to the team all that I know and can do. <b>#Full Stack Engineer</b></p>
 								<hr />	
 								<p><span className="blue-text">Front-End Development:</span> HTML5, CSS3, Javascript, JQuery, and ReactJS </p>
 								<hr />
@@ -37,7 +40,6 @@ export default class About extends Component {
 								<hr />
 								<p><span className="blue-text">Cloud Platforms:</span> Heroku and AWS</p>
 							</div>
-							
 						</div>
 					</div>
 				</div>

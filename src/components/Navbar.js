@@ -18,9 +18,9 @@ export default class Navbar extends Component {
 	render() {
 		return (
 			<div className="navbar-fixed">
-				<nav className="nav-extended" id="nav-container">
+				<nav id="nav-container">
 					<div className="nav-wrapper center">
-						<a className="brand-logo">Yanlin Zhu (Eric)</a>
+						<h4 id="nav-header">Yanlin Zhu (Eric)</h4>
 					</div>
 				</nav>
 			</div>
