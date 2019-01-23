@@ -1,0 +1,29 @@
+#media-icons-container {
+	border-top: none;
+	padding-top: 5px;
+	padding-left: 40px;
+}
+
+#media-icons-container a {
+	color: #757575;
+}
+
+#profile-pic {
+	width: 200px;
+	height: 200px;
+}
+
+@media print, screen and (max-width: 900px) {
+	#profile-container {
+		display: flex;
+		flex-direction: column;
+
+	}
+	#profile-image-container{
+		max-width: 100%;
+		padding-left: 50px;
+	}
+	#media-icons-container {
+		padding-left: 40px;
+	}
+}
