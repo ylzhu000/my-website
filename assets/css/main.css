@@ -619,6 +619,32 @@ a, button {
   color: #171717;
 }
 
+.personal-item-title-container {
+  max-width: 480px;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .1em; /* Adjust as needed */
+  animation: 
+    typing 2s steps(21),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
 .hero-01 {
   background-image: url("http://placehold.it/1920x1280") !important;
   position: relative;
@@ -2760,6 +2786,14 @@ footer li a {
   #message.toast {
     font-size: 12px;
     padding: 3px 0;
+  }
+
+  .personal-item-title-container {
+    max-width: 300px;
+  }
+
+  .typewriter h1 {
+    font-size: 25px;
   }
 }
 
